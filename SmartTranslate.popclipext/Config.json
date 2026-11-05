@@ -1,0 +1,11 @@
+{
+  "identifier": "com.zw.popclip.smart-translate",
+  "name": "智能翻译",
+  "popclip version": 4508,
+  "icon": "square filled 译",
+  "module": "main.js",
+  "entitlements": ["network"],
+  "regex": "(?s)^.{1,20000}$",
+  "after": "preview-result",
+  "description": "大模型与原有 Microsoft 翻译自由切换。支持领域提示词、DeepSeek 和自定义兼容接口。按住 ⌥ 点击可临时切换翻译引擎。"
+}

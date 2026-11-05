@@ -1,0 +1,22 @@
+# infra: local secrets and generated files
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+build/
+
+# Bundled legacy access credentials are only allowed in a private local install package.
+access.json
+*.popclipextz
+
+# Native GUI scratch document; manual-smoke.rtf is the portable test fixture.
+tests/gui-smoke.rtf
